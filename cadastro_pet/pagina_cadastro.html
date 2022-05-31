@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro pet</title>
+    <link rel="stylesheet" href="pagina_cadastro.css">
+    <script src="LANDING_PAGE.JS"></script>
+</head>
+<body>
+    <img class="gato_preto_img" src="Background1.svg" alt="Gato_Preto">
+    <img class="ellipse_img" src="Ellipse1.svg" alt="Ellipse">
+    <form class="_inputs" method="post" id="insert_form">
+        <div>
+            <label for="nome">Qual e o seu nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Ex:João Silva">
+        </div>
+        <div>
+            <label for="pet">Qual o nome do seu pet?</label><br>
+            <input type="text" id="nome_pet" nome="nome_pet" placeholder="Ex:Scooby">
+        </div>
+        <div>
+            <label for="idade">Qual a idade do seu pet?</label><br>
+            <input type="number" min="1" name="idade_pet" id="idade" placeholder="Ex:3">
+        </div>
+        <div>
+            <label for="data">Quando seu pet nasceu?</label><br>
+            <input type="datetime-local" name="data_pet" id="data">
+        </div>
+        <div>
+            <label for="foto">Adicione uma foto do seu pet</label><br>
+            <input type="file" name="filemage" id="fimag" accept="image/*">
+        </div>
+        <div>
+            <label for="text">Descreva como vocé e com seu pet e por que ele e especial para você</label><br>
+            <input type="text" id="texto" name="text" pattern="[A-Za-z]+">
+        </div>
+        <div>
+            <label for="video">Mande um video de você e seu pet demostrando suas rotinas e o quanto você o ama</label><br>
+            <input type="file" id="video" name="vid" accept="video/*"> 
+        </div>
+        <div>
+            <label for="email">Email para cadastro</label><br>
+            <input type="email" id="email" name="email" placeholder="Ex: JoãoSilva@gmail.com">
+        </div>
+        <div>
+            <label for="telefone">Telefone</label><br>
+            <input type="tel" id="telefone" name="tel" placeholder="Ex:(ddd)99999-9999">
+        </div>
+        <div>
+            <input onclick="enviado()" onmouseover="vira_azul()" onmouseout="vira_vermelho()" class="enviar" type="submit" name="sub_msg" id="cor">
+        </div>
+    </form>
+</body>
+</html>

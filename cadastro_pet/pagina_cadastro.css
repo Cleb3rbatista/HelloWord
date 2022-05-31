@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Lora:ital@1&display=swap');
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body
+{
+    background:linear-gradient(68.56deg,#1BF578 17.47%,#1AEBDD 68.43%);
+    font-family: "lora",sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    border-radius: 40px;
+}
+input
+{
+    border-radius: 32px;
+    padding: 16px;
+}
+._inputs
+{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #1A5AED;
+}
+.gato_preto_img
+{
+    z-index: 1;
+    position: absolute;
+    margin-left: 43.1%;
+    width: 920.05px;
+    height: 553.98px;
+}
+.ellipse_img
+{   position:absolute;
+    z-index: 0;
+    left: 55.76%;
+    right: -22.01%;
+    top: -26.07%;
+    bottom: 36.91%;
+}
+.enviar
+{
+    background-color: red;
+    border-radius: 32px;
+    width: 256px;
+    height: 64px;
+}
