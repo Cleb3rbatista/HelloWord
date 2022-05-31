@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Lora:ital@1&display=swap');
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body
+{
+    background:linear-gradient(68.56deg,#1BF578 17.47%,#1AEBDD 68.43%);
+    height: 100%;
+    overflow:hidden;
+    border-radius: 40px;
+}
+.entrada
+{
+    margin-top: 60px;
+    margin-left: 147px;
+    font-family: "lora",serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.principal
+{
+    font-family: "lora",serif;
+}
+.ellipse_img
+{   position:absolute;
+    z-index: 0;
+    left: 55.76%;
+    right: -22.01%;
+    top: -26.07%;
+    bottom: 36.91%;
+}
+.titulo
+{
+    position: absolute;
+    width: 569px;
+    height: 97px;
+    left: 147px;
+    top: 190px;
+    color: #1A5AED;
+}
+.subtitulo
+{
+    position: absolute;
+    width: 569px;
+    height: 97px;
+    left: 147px;
+    top: 229px;
+    color:#1A5AED;
+}
+.gato_preto_img
+{
+    z-index: 1;
+    position: absolute;
+    margin-left: 43.1%;
+    width: 920.05px;
+    height: 553.98px;
+}
+.pets_img
+{
+    position: absolute;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    margin-left: 30px;
+    margin-top:231px;
+}
+.cadastro
+{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 147px;
+    top: 510px;
+    background-color:yellow;
+    border-radius:30px;
+    border: none;
+    box-shadow: 4px,5px,4px,black;
+}
+.roda_pé
+{ 
+    position: absolute;
+    width: 1440px;
+    height: 37px;
+    left: 16px;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.contato
+{
+    color: black;
+}
